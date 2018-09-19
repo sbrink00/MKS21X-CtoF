@@ -1,5 +1,5 @@
 public class CtoFTester{
-  public static void tester(){
+  public static void main(String[] args){
 
     System.out.println(celsiusToFahrenheit(0));
     System.out.println(celsiusToFahrenheit(15));
@@ -15,7 +15,7 @@ public class CtoFTester{
     return 1.8 * a + 32;
   }
 
-  public static double fahrenheitToCelsius(int a){
-    return (5 / 9) * (a - 32);
+  public static double fahrenheitToCelsius(int b){
+    return (b - 32) * (5.0 / 9.0);
   }
 }
